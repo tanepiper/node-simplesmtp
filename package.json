@@ -1,7 +1,7 @@
 {
   "name": "simplesmtp",
   "description": "A very simple SMTP client for nodejs, provides no fancy functionality or error checking.  Handy for debugging.",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "author": "Tane Piper",
   "repository": {
     "type": "git",
@@ -11,5 +11,5 @@
   "directories" : {
     "dep" : "./dep"
   },
-  "main": "lib/simplesmtp"
+  "main": "./lib/simplesmtp"
 }
