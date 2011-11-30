@@ -1,3 +1,8 @@
+>>>>>> THIS MODULE IS NOW DEPRICATED AND UNPUBLISHED FROM NPM <<<<<<
+
+If you want a simple SMTP/Mail client module for nodejs, check out node-pony (https://github.com/substack/node-pony) instead.
+
+
 Real Simple NodeJS SMTP
 This module provides a real simple SMTP client.  It provides no error checking or
 callbacks, it just lets you provide connection settings to a client handler which you
