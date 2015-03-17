@@ -10,14 +10,8 @@ can then use throughout your own module.
 Handy for debugging
 
 Some code based on node_mailer by Marak Squires - http://github.com/marak/node_mailer
-=====================================================================================
 
-Install
--------
-
-npm install simplesmtp
-
-OR
+### Install
 
 git clone http://github.com/tanepiper/node-simplesmtp.git
 cd node-simplesmtp
@@ -25,8 +19,8 @@ npm install .
 
 Useage:
 -------
-
+```
   var simplesmtp = require('simplesmtp');
   var mailClient = simplesmtp.createClient(host, username, password [,port, domain, authentication, encoding]);
   mailClient.sendMail(to, from, subject, body)
-
+```
