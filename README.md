@@ -1,4 +1,4 @@
->>>>>> THIS MODULE IS NOW DEPRICATED AND UNPUBLISHED FROM NPM <<<<<<
+### THIS MODULE IS NOW ABANDONED AND UNPUBLISHED FROM NPM. It is kept here for archive purposes only.
 
 If you want a simple SMTP/Mail client module for nodejs, check out node-pony (https://github.com/substack/node-pony) instead.
 
@@ -19,7 +19,7 @@ npm install simplesmtp
 
 OR
 
-git clone http://github.com/digitalspaghetti/node-simplesmtp.git
+git clone http://github.com/tanepiper/node-simplesmtp.git
 cd node-simplesmtp
 npm install .
 
@@ -29,5 +29,4 @@ Useage:
   var simplesmtp = require('simplesmtp');
   var mailClient = simplesmtp.createClient(host, username, password [,port, domain, authentication, encoding]);
   mailClient.sendMail(to, from, subject, body)
-  
-Tane Piper <github@digitalspaghetti.me.uk>
+
